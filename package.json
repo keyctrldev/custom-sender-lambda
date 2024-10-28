@@ -1,0 +1,18 @@
+{
+  "name": "my-lambda-function",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-crypto/client-node": "^4.0.2",
+    "@aws-sdk/client-kms": "^3.678.0",
+    "@aws-sdk/util-base64-node": "^3.208.0",
+    "twilio": "^5.3.4"
+  }
+}
